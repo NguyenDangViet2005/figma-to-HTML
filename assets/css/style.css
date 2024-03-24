@@ -1,0 +1,318 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    max-width: 1540px;
+    margin: 0 auto;
+}
+
+
+
+/* header */
+.head{
+    z-index: 1;
+    position:sticky;
+    top: -8px;
+    background-color: rgb(12, 62, 111);
+    display: flex;
+    padding: 20px 20px;
+    justify-content: space-around;
+}
+.head .logo{
+    width: 70px;
+    height: 70px;
+}
+.head-left{
+    display: flex;
+    gap: 20px;
+}
+.head .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.6rem;
+    color: white;
+}
+.head .desc.english{
+    margin-top: 10px;
+    color: yellow;
+}
+.head .line{
+    width: 400px;
+    background-color: rgb(244, 244, 237);
+    height: 2px;
+    margin-top: 18px;
+}
+.head-right{
+   display: flex;
+   align-items: center;
+}
+
+.head-right a{
+    color: white;
+    margin-left: 25px;
+    font-size: 1.7rem;
+    text-decoration: none;
+
+}
+.head-right a:hover{
+    color: yellow;
+    text-shadow: 2px 0 0.7 #efeaea;
+}
+/* main */
+.main .nen{
+    width: 1540px;
+}
+.main .main-content{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 130px;
+   width:  1170px;
+}
+.main .school{
+    border-radius: 40px;
+    width: 600px;
+    cursor: pointer;
+}
+.main-left .desc{
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 22px;
+    color: rgb(6, 72, 129);
+}
+.main-right h2{
+    color: rgb(6, 72, 129);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 40px;
+    
+}
+.main-right .desc{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 400px;
+    line-height: 1.5;
+}
+.new{
+    margin-top: 130px;
+    background-color: #c3d5ed;
+    height: 800px;
+}
+.new .noidung .image{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px 30px 0 0 ;
+    cursor: pointer;
+}
+.new .noidung{
+    display: flex;
+    width: 1300px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.new  .title{
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    font-weight: 700;
+    align-items: center;
+    height: 150px;
+    color:  rgb(6, 72, 129);
+}
+.new .item{
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+.new .item .desc{
+    font-weight: 600;
+    line-height: 1.4;
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 20px;
+   
+
+}
+.new .noidung .tieude{
+    font-weight: 800;
+    font-size: 2rem;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sinhvien .title{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-left: 160px;
+    color: yellow;
+}
+.sinhvien{
+    margin-top: 130px;
+    width: 1540px;
+    background-color: #285480;
+    padding: 20px 0 0 0;
+    height: 1400px;
+}
+.sinhvien .anh
+{
+    margin-top: 40px;
+   
+}
+.sinhvien .anh .top{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.sinhvien .anh img{
+    width: 600px;
+    height:400px;
+    border-radius: 40px;
+    cursor: pointer;
+    
+}
+.sinhvien .anh .bottom{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.sinhvien .anh .bottom img{
+    width: 1230px;
+    height: 600px;
+  
+}
+.sinhvien .line
+{
+    width: 1230px;
+    height: 3px;
+    background-color: yellow;
+    margin-left: 160px;
+    margin-top: 50px;
+}
+.sinhvien .desc{
+    color: yellow;
+    width: 1230px;
+    margin-left: 160px;
+    font-weight: 600;
+    line-height: 1.6;
+    font-size: 1.8rem;
+    text-align: justify;
+}
+
+.giangvien{
+    margin-top: 100px;
+    padding: 20px 0 0 0;
+    display: flex;
+    width: 1540px;
+    justify-content: space-around;
+}
+.giangvien .giangvien-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.giangvien .giangvien-left img{
+    width: 500px;
+    height: 300px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.giangvien .giangvien-right .title{
+    font-size: 4rem;
+    padding: 50px 0 30px;
+    font-weight: 500;
+    color:  rgb(6, 72, 129);
+}
+.giangvien .giangvien-right .desc{
+    width: 800px;
+    font-size: 2rem;
+    text-align: justify;
+    line-height: 1.4;
+}
+.chatluong{
+    width: 1540px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    background-color: #c6d7e5;
+    padding: 20px 0  20px;
+}
+.chatluong .title
+{
+    font-size: 3rem;
+    font-weight: 600;
+    color:  rgb(6, 72, 129);
+}
+.chatluong .desc {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    width: 1230px;
+    text-align: justify;
+    line-height: 1.4;
+}
+.chatluong .infor{
+    font-size: 1.5rem;
+    width: 1230px;
+    text-align: justify;
+    line-height: 1.4;
+}
+.chatluong img{
+    width: 800px;
+    margin-top: 20px;
+    
+}
+.chatluong .content{
+    font-style: italic;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+.foot{
+    padding: 20px;
+    background-color: rgb(12, 62, 111);
+    display: flex;
+    justify-content: space-around;
+}
+.foot img{
+    width: 100px;
+    height: 100px;
+}
+.foot .foot-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+.foot-left a{
+    font-size: 1.5rem;
+    color: white;
+}
+.foot-left .fa-solid,
+.foot-left .fa-brands {
+    margin-right: 10px;
+}
+.foot-center .ad{
+    margin-top: 20px;
+    color: yellow;
+    text-align: center;
+}
+.foot-center img{
+    width: 300px;
+    height: 180px;
+}
+.foot-right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.foot-right .name{
+    color:yellow;
+    margin-top: 20px;
+}
